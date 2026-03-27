@@ -32,6 +32,13 @@ This repository validates these specific components from my proposal:
 └──────────────────────────────┘    └───────────────────────────────────┘
 ```
 
+## Evaluation Methodology
+
+The >80% accuracy claim is based on the following manual assessment:
+- **Criteria:** A retrieval is considered "correct" if the top-1 retrieved chunk directly addresses the user's question.
+- **Judge:** Manual review by the author (Amogh Parmar).
+- **Result:** 13 out of 15 questions (86%) successfully retrieved a highly relevant documentation chunk on the first try using only semantic vector search.
+
 ## Quick Start (5 minutes)
 
 ### 1. Install dependencies
