@@ -1,0 +1,21 @@
+# ChromaDB local storage
+chroma_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
